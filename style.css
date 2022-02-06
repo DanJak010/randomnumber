@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color:dimgray;
+  text-align: center;
+  color: aliceblue;
+}
+
+/*PAGE TITLE*/
+header {
+  font-family: 'Times New Roman', Times, serif;
+  background: rgb(54, 54, 54);
+  padding: 10px;
+  text-shadow: 1px 0 #000000, 0 2px #000000, 3px 0 #000000, 0px 0 #000000;
+}
+
+/*FROM/TO-TEXT(TITLE)*/
+label {
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+/*FROM/TO-TEXT(NUMBER)*/
+input {
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 20%;
+  height: 40px;
+  padding: 10px;
+}
+
+/*GENERATE-BUTTON*/
+section button {
+  padding: 5px 7px;
+  margin: 15px;
+  margin-top: 5%;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+  background: rgb(54, 54, 54);
+  font-size: 17px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+section button:hover {
+  background: rgb(39, 39, 39);
+}
+
+.randomNum {
+  /* background: rgb(73, 73, 73); */
+  width: 90%;
+  margin: 20px auto;
+}
+
+
