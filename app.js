@@ -8,7 +8,7 @@ function generateRandomNum() {
 
   randomNum = Math.floor(Math.random() * parseInt(toNum));
 
-  while ((randomNum == 4) || (randomNum == 13) || (randomNum == 15)){
+  while ((randomNum == 4) || (randomNum == 13)){
     randomNum = Math.floor(Math.random() * parseInt(toNum))
   }
 
